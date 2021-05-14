@@ -6,8 +6,8 @@ maximum = -2147000000
 for i in range(n):  #각 행의 합, 각 열의 합
     sum1 = sum2 =0
     for j in range(n):
-        sum1+=a[i][j]   #열(세로의 합)
-        sum2+=a[j][i]   #행(가로의 합)
+        sum1+=a[i][j]   #행(가로의 합)
+        sum2+=a[j][i]   #열(세로의 합)
     if sum1>maximum:
         maximum = sum1
     if sum2>maximum:
